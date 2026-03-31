@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>TradeEdge Academy</title>
+  <title>Big Wizy Academy</title>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet"/>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
+ 
     :root {
       --gold: #c9a84c;
       --gold-light: #e8c96a;
@@ -18,9 +18,9 @@
       --muted: #7a7060;
       --accent: #c9a84c;
     }
-
+ 
     html { scroll-behavior: smooth; }
-
+ 
     body {
       background: var(--dark);
       color: var(--text);
@@ -28,7 +28,7 @@
       font-weight: 300;
       overflow-x: hidden;
     }
-
+ 
     /* ── NAV ── */
     nav {
       position: fixed; top: 0; width: 100%; z-index: 100;
@@ -51,7 +51,7 @@
       transition: color 0.3s;
     }
     .nav-links a:hover { color: var(--gold); }
-
+ 
     /* ── HERO ── */
     .hero {
       min-height: 100vh;
@@ -122,7 +122,7 @@
       display: inline-block;
     }
     .btn-outline:hover { border-color: var(--gold); color: var(--gold); }
-
+ 
     /* ── STATS ── */
     .stats {
       display: flex; gap: 0; border-top: 1px solid rgba(255,255,255,0.06);
@@ -138,7 +138,7 @@
       font-size: 3rem; color: var(--gold); letter-spacing: 2px;
     }
     .stat-label { font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); margin-top: 0.3rem; }
-
+ 
     /* ── ABOUT ── */
     .section { padding: 6rem 4rem; }
     .section-label {
@@ -150,7 +150,7 @@
       font-size: clamp(2rem, 5vw, 4rem);
       letter-spacing: 2px; line-height: 1;
     }
-
+ 
     .about-grid {
       display: grid; grid-template-columns: 1fr 1fr; gap: 5rem;
       align-items: center;
@@ -168,7 +168,7 @@
     .feature-icon { color: var(--gold); font-size: 1.2rem; flex-shrink: 0; margin-top: 2px; }
     .feature-item h4 { font-size: 0.9rem; font-weight: 600; letter-spacing: 1px; }
     .feature-item p { color: var(--muted); font-size: 0.85rem; line-height: 1.5; margin-top: 0.2rem; }
-
+ 
     .about-visual {
       background: var(--dark-3);
       border: 1px solid rgba(201,168,76,0.2);
@@ -203,7 +203,7 @@
     .tick { font-size: 0.8rem; letter-spacing: 1px; }
     .tick .up { color: #4caf7d; }
     .tick .dn { color: #e06060; }
-
+ 
     /* ── REGISTER ── */
     #register { background: var(--dark-2); }
     .register-wrap { max-width: 680px; margin: 0 auto; }
@@ -214,7 +214,7 @@
       margin-top: 1rem; margin-bottom: 2.5rem;
       line-height: 1.7;
     }
-
+ 
     form { display: flex; flex-direction: column; gap: 1.2rem; }
     .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
     .form-group { display: flex; flex-direction: column; gap: 0.4rem; }
@@ -237,14 +237,14 @@
     }
     select option { background: var(--dark-2); }
     textarea { resize: vertical; min-height: 100px; }
-
+ 
     .form-submit {
       margin-top: 0.5rem;
       display: flex; flex-direction: column; align-items: center; gap: 0.8rem;
     }
     .form-submit .btn-primary { width: 100%; text-align: center; font-size: 0.9rem; padding: 1rem; }
     .form-note { font-size: 0.78rem; color: var(--muted); letter-spacing: 0.5px; }
-
+ 
     .success-msg {
       display: none; text-align: center;
       padding: 2rem; border: 1px solid var(--gold);
@@ -252,7 +252,7 @@
     }
     .success-msg h3 { font-family: 'Bebas Neue', sans-serif; font-size: 2rem; color: var(--gold); letter-spacing: 2px; }
     .success-msg p { color: var(--muted); margin-top: 0.5rem; }
-
+ 
     /* ── FOOTER ── */
     footer {
       padding: 2.5rem 4rem;
@@ -262,13 +262,13 @@
     }
     footer .logo { font-family: 'Bebas Neue', sans-serif; color: var(--gold); letter-spacing: 3px; }
     footer p { font-size: 0.8rem; color: var(--muted); }
-
+ 
     /* ── ANIMATIONS ── */
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(24px); }
       to   { opacity: 1; transform: translateY(0); }
     }
-
+ 
     /* ── RESPONSIVE ── */
     @media (max-width: 768px) {
       nav { padding: 1rem 1.5rem; }
@@ -284,21 +284,21 @@
   </style>
 </head>
 <body>
-
+ 
 <!-- NAV -->
 <nav>
-  <div class="nav-logo">TradeEdge</div>
+  <div class="nav-logo">Big Wizy</div>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#register">Register</a></li>
   </ul>
 </nav>
-
+ 
 <!-- HERO -->
 <section class="hero">
   <div class="grid-bg"></div>
   <div class="hero-content">
-    <div class="hero-tag">Professional Trading Academy</div>
+    <div class="hero-tag">Big Wizy Trading Academy</div>
     <h1>Master the <span>Markets</span><br>With a Pro</h1>
     <p>Learn real-world trading strategies from an experienced trader. Join a community of students turning knowledge into consistent profits.</p>
     <div class="hero-cta">
@@ -307,15 +307,15 @@
     </div>
   </div>
 </section>
-
+ 
 <!-- STATS -->
 <div class="stats">
   <div class="stat">
-    <div class="stat-num">500+</div>
+    <div class="stat-num">100+</div>
     <div class="stat-label">Students Trained</div>
   </div>
   <div class="stat">
-    <div class="stat-num">8+</div>
+    <div class="stat-num">4+</div>
     <div class="stat-label">Years Experience</div>
   </div>
   <div class="stat">
@@ -327,14 +327,14 @@
     <div class="stat-label">Student Satisfaction</div>
   </div>
 </div>
-
+ 
 <!-- ABOUT -->
 <section class="section" id="about">
   <div class="about-grid">
     <div class="about-text">
       <div class="section-label">Who I Am</div>
       <h2>A Trader Who<br>Teaches <span style="color:var(--gold)">Results</span></h2>
-      <p>I'm a professional trader with over 8 years of active experience in forex, stocks, and crypto markets. I've gone through every phase of the market cycle — and I'm here to help you skip the painful learning curve.</p>
+      <p>I'm Big Wizy, a professional trader with over 4 years of active experience in forex, stocks, and crypto markets. I've gone through every phase of the market cycle — and I'm here to help you skip the painful learning curve.</p>
       <p>My teaching focuses on practical strategies, risk management, and the mindset needed to trade consistently.</p>
       <div class="about-features">
         <div class="feature-item">
@@ -384,14 +384,14 @@
     </div>
   </div>
 </section>
-
+ 
 <!-- REGISTER -->
 <section class="section" id="register">
   <div class="register-wrap">
     <div class="section-label">Join the Academy</div>
     <h2>Student Registration</h2>
     <p>Fill in your details below and I'll reach out with onboarding information, class schedules, and next steps.</p>
-
+ 
     <form id="regForm">
       <div class="form-row">
         <div class="form-group">
@@ -440,20 +440,20 @@
         <span class="form-note">Your information is private and will never be shared.</span>
       </div>
     </form>
-
+ 
     <div class="success-msg" id="successMsg">
       <h3>You're Registered! 🎯</h3>
       <p>Thank you for signing up. I'll be in touch soon with your onboarding details. Check your email!</p>
     </div>
   </div>
 </section>
-
+ 
 <!-- FOOTER -->
 <footer>
-  <div class="logo">TradeEdge Academy</div>
-  <p>© 2025 TradeEdge Academy. All rights reserved.</p>
+  <div class="logo">Big Wizy Academy</div>
+  <p>© 2025 Big Wizy Academy. All rights reserved.</p>
 </footer>
-
+ 
 <script>
   document.getElementById('regForm').addEventListener('submit', function(e) {
     e.preventDefault();
@@ -463,3 +463,469 @@
 </script>
 </body>
 </html>
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Big Wizy Academy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+ 
+    :root {
+      --gold: #c9a84c;
+      --gold-light: #e8c96a;
+      --dark: #0a0a0a;
+      --dark-2: #111111;
+      --dark-3: #1a1a1a;
+      --text: #e8e0d0;
+      --muted: #7a7060;
+      --accent: #c9a84c;
+    }
+ 
+    html { scroll-behavior: smooth; }
+ 
+    body {
+      background: var(--dark);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      overflow-x: hidden;
+    }
+ 
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 0; width: 100%; z-index: 100;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1.2rem 4rem;
+      background: rgba(10,10,10,0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(201,168,76,0.15);
+    }
+    .nav-logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.6rem;
+      letter-spacing: 3px;
+      color: var(--gold);
+    }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a {
+      color: var(--muted); text-decoration: none;
+      font-size: 0.85rem; letter-spacing: 1.5px; text-transform: uppercase;
+      transition: color 0.3s;
+    }
+    .nav-links a:hover { color: var(--gold); }
+ 
+    /* ── HERO ── */
+    .hero {
+      min-height: 100vh;
+      display: flex; align-items: center;
+      padding: 8rem 4rem 4rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 60% 60% at 70% 50%, rgba(201,168,76,0.08) 0%, transparent 70%);
+    }
+    .grid-bg {
+      position: absolute; inset: 0;
+      background-image:
+        linear-gradient(rgba(201,168,76,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(201,168,76,0.04) 1px, transparent 1px);
+      background-size: 60px 60px;
+    }
+    .hero-content { position: relative; z-index: 1; max-width: 700px; }
+    .hero-tag {
+      display: inline-block;
+      border: 1px solid var(--gold);
+      color: var(--gold);
+      font-size: 0.75rem; letter-spacing: 3px; text-transform: uppercase;
+      padding: 0.4rem 1rem; margin-bottom: 2rem;
+      animation: fadeUp 0.8s ease both;
+    }
+    .hero h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(3.5rem, 8vw, 7rem);
+      line-height: 0.95;
+      letter-spacing: 2px;
+      animation: fadeUp 0.8s 0.15s ease both;
+    }
+    .hero h1 span { color: var(--gold); }
+    .hero p {
+      margin-top: 1.5rem;
+      font-size: 1.05rem; line-height: 1.7;
+      color: var(--muted); max-width: 500px;
+      animation: fadeUp 0.8s 0.3s ease both;
+    }
+    .hero-cta {
+      margin-top: 2.5rem;
+      display: flex; gap: 1rem; flex-wrap: wrap;
+      animation: fadeUp 0.8s 0.45s ease both;
+    }
+    .btn-primary {
+      background: var(--gold); color: var(--dark);
+      border: none; padding: 0.9rem 2rem;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.85rem; font-weight: 600;
+      letter-spacing: 1.5px; text-transform: uppercase;
+      cursor: pointer; text-decoration: none;
+      transition: background 0.3s, transform 0.2s;
+      display: inline-block;
+    }
+    .btn-primary:hover { background: var(--gold-light); transform: translateY(-2px); }
+    .btn-outline {
+      background: transparent; color: var(--text);
+      border: 1px solid rgba(255,255,255,0.2);
+      padding: 0.9rem 2rem;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.85rem; letter-spacing: 1.5px; text-transform: uppercase;
+      cursor: pointer; text-decoration: none;
+      transition: border-color 0.3s, color 0.3s;
+      display: inline-block;
+    }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+ 
+    /* ── STATS ── */
+    .stats {
+      display: flex; gap: 0; border-top: 1px solid rgba(255,255,255,0.06);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .stat {
+      flex: 1; padding: 2.5rem; text-align: center;
+      border-right: 1px solid rgba(255,255,255,0.06);
+    }
+    .stat:last-child { border-right: none; }
+    .stat-num {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 3rem; color: var(--gold); letter-spacing: 2px;
+    }
+    .stat-label { font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); margin-top: 0.3rem; }
+ 
+    /* ── ABOUT ── */
+    .section { padding: 6rem 4rem; }
+    .section-label {
+      font-size: 0.75rem; letter-spacing: 3px; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 1rem;
+    }
+    .section h2 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(2rem, 5vw, 4rem);
+      letter-spacing: 2px; line-height: 1;
+    }
+ 
+    .about-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 5rem;
+      align-items: center;
+    }
+    .about-text p {
+      margin-top: 1.5rem; line-height: 1.8;
+      color: var(--muted); font-size: 1rem;
+    }
+    .about-features { margin-top: 2rem; display: flex; flex-direction: column; gap: 1rem; }
+    .feature-item {
+      display: flex; align-items: flex-start; gap: 1rem;
+      padding: 1rem; border: 1px solid rgba(201,168,76,0.15);
+      background: rgba(201,168,76,0.03);
+    }
+    .feature-icon { color: var(--gold); font-size: 1.2rem; flex-shrink: 0; margin-top: 2px; }
+    .feature-item h4 { font-size: 0.9rem; font-weight: 600; letter-spacing: 1px; }
+    .feature-item p { color: var(--muted); font-size: 0.85rem; line-height: 1.5; margin-top: 0.2rem; }
+ 
+    .about-visual {
+      background: var(--dark-3);
+      border: 1px solid rgba(201,168,76,0.2);
+      padding: 2rem; position: relative; overflow: hidden;
+    }
+    .chart-mock {
+      height: 200px; display: flex; align-items: flex-end; gap: 6px;
+      padding: 1rem 0;
+    }
+    .bar {
+      flex: 1; background: rgba(201,168,76,0.15);
+      border-top: 2px solid var(--gold);
+      transition: height 1s ease;
+      animation: growBar 1.5s ease forwards;
+    }
+    @keyframes growBar { from { transform: scaleY(0); transform-origin: bottom; } to { transform: scaleY(1); } }
+    .chart-line {
+      height: 80px; border-top: 2px solid var(--gold);
+      border-left: 2px solid rgba(201,168,76,0.3);
+      margin-top: 1rem; padding: 1rem;
+      position: relative;
+    }
+    .chart-line::after {
+      content: '+127%'; position: absolute; top: 0.5rem; right: 1rem;
+      color: var(--gold); font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.5rem; letter-spacing: 2px;
+    }
+    .ticker {
+      display: flex; gap: 2rem; overflow: hidden; margin-top: 1rem;
+      padding: 0.8rem; background: rgba(0,0,0,0.3);
+    }
+    .tick { font-size: 0.8rem; letter-spacing: 1px; }
+    .tick .up { color: #4caf7d; }
+    .tick .dn { color: #e06060; }
+ 
+    /* ── REGISTER ── */
+    #register { background: var(--dark-2); }
+    .register-wrap { max-width: 680px; margin: 0 auto; }
+    .register-wrap h2 { text-align: center; }
+    .register-wrap .section-label { text-align: center; }
+    .register-wrap > p {
+      text-align: center; color: var(--muted);
+      margin-top: 1rem; margin-bottom: 2.5rem;
+      line-height: 1.7;
+    }
+ 
+    form { display: flex; flex-direction: column; gap: 1.2rem; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .form-group { display: flex; flex-direction: column; gap: 0.4rem; }
+    label {
+      font-size: 0.75rem; letter-spacing: 2px; text-transform: uppercase;
+      color: var(--muted);
+    }
+    input, select, textarea {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.1);
+      color: var(--text);
+      padding: 0.85rem 1rem;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.95rem; font-weight: 300;
+      outline: none; width: 100%;
+      transition: border-color 0.3s;
+    }
+    input:focus, select:focus, textarea:focus {
+      border-color: var(--gold);
+    }
+    select option { background: var(--dark-2); }
+    textarea { resize: vertical; min-height: 100px; }
+ 
+    .form-submit {
+      margin-top: 0.5rem;
+      display: flex; flex-direction: column; align-items: center; gap: 0.8rem;
+    }
+    .form-submit .btn-primary { width: 100%; text-align: center; font-size: 0.9rem; padding: 1rem; }
+    .form-note { font-size: 0.78rem; color: var(--muted); letter-spacing: 0.5px; }
+ 
+    .success-msg {
+      display: none; text-align: center;
+      padding: 2rem; border: 1px solid var(--gold);
+      background: rgba(201,168,76,0.05);
+    }
+    .success-msg h3 { font-family: 'Bebas Neue', sans-serif; font-size: 2rem; color: var(--gold); letter-spacing: 2px; }
+    .success-msg p { color: var(--muted); margin-top: 0.5rem; }
+ 
+    /* ── FOOTER ── */
+    footer {
+      padding: 2.5rem 4rem;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      display: flex; justify-content: space-between; align-items: center;
+      flex-wrap: wrap; gap: 1rem;
+    }
+    footer .logo { font-family: 'Bebas Neue', sans-serif; color: var(--gold); letter-spacing: 3px; }
+    footer p { font-size: 0.8rem; color: var(--muted); }
+ 
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+ 
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      nav { padding: 1rem 1.5rem; }
+      .nav-links { display: none; }
+      .hero { padding: 7rem 1.5rem 3rem; }
+      .stats { flex-direction: column; }
+      .stat { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.06); }
+      .section { padding: 4rem 1.5rem; }
+      .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+      .form-row { grid-template-columns: 1fr; }
+      footer { padding: 2rem 1.5rem; flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+ 
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">Big Wizy</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#register">Register</a></li>
+  </ul>
+</nav>
+ 
+<!-- HERO -->
+<section class="hero">
+  <div class="grid-bg"></div>
+  <div class="hero-content">
+    <div class="hero-tag">Big Wizy Trading Academy</div>
+    <h1>Master the <span>Markets</span><br>With a Pro</h1>
+    <p>Learn real-world trading strategies from an experienced trader. Join a community of students turning knowledge into consistent profits.</p>
+    <div class="hero-cta">
+      <a href="#register" class="btn-primary">Register as a Student</a>
+      <a href="#about" class="btn-outline">Learn More</a>
+    </div>
+  </div>
+</section>
+ 
+<!-- STATS -->
+<div class="stats">
+  <div class="stat">
+    <div class="stat-num">100+</div>
+    <div class="stat-label">Students Trained</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num">4+</div>
+    <div class="stat-label">Years Experience</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num">12</div>
+    <div class="stat-label">Markets Covered</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num">94%</div>
+    <div class="stat-label">Student Satisfaction</div>
+  </div>
+</div>
+ 
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="about-grid">
+    <div class="about-text">
+      <div class="section-label">Who I Am</div>
+      <h2>A Trader Who<br>Teaches <span style="color:var(--gold)">Results</span></h2>
+      <p>I'm Big Wizy, a professional trader with over 4 years of active experience in forex, stocks, and crypto markets. I've gone through every phase of the market cycle — and I'm here to help you skip the painful learning curve.</p>
+      <p>My teaching focuses on practical strategies, risk management, and the mindset needed to trade consistently.</p>
+      <div class="about-features">
+        <div class="feature-item">
+          <div class="feature-icon">◆</div>
+          <div>
+            <h4>Live Trading Sessions</h4>
+            <p>Watch and learn in real-time market environments.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">◆</div>
+          <div>
+            <h4>Risk Management</h4>
+            <p>Learn how to protect your capital before you grow it.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">◆</div>
+          <div>
+            <h4>1-on-1 Mentorship</h4>
+            <p>Personal guidance tailored to your trading goals.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about-visual">
+      <div style="font-size:0.75rem; letter-spacing:2px; color:var(--muted); text-transform:uppercase; margin-bottom:0.5rem;">Portfolio Performance</div>
+      <div class="chart-mock">
+        <div class="bar" style="height:40%"></div>
+        <div class="bar" style="height:55%"></div>
+        <div class="bar" style="height:45%"></div>
+        <div class="bar" style="height:70%"></div>
+        <div class="bar" style="height:60%"></div>
+        <div class="bar" style="height:85%"></div>
+        <div class="bar" style="height:75%"></div>
+        <div class="bar" style="height:95%"></div>
+        <div class="bar" style="height:80%"></div>
+        <div class="bar" style="height:100%"></div>
+      </div>
+      <div class="chart-line"></div>
+      <div class="ticker">
+        <div class="tick">BTC <span class="up">▲ 2.4%</span></div>
+        <div class="tick">EUR/USD <span class="dn">▼ 0.3%</span></div>
+        <div class="tick">GOLD <span class="up">▲ 1.1%</span></div>
+        <div class="tick">SPX <span class="up">▲ 0.8%</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- REGISTER -->
+<section class="section" id="register">
+  <div class="register-wrap">
+    <div class="section-label">Join the Academy</div>
+    <h2>Student Registration</h2>
+    <p>Fill in your details below and I'll reach out with onboarding information, class schedules, and next steps.</p>
+ 
+    <form id="regForm">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" placeholder="e.g. Kwame" required />
+        </div>
+        <div class="form-group">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" placeholder="e.g. Asante" required />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="you@email.com" required />
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone / WhatsApp Number</label>
+        <input type="tel" id="phone" placeholder="+233 XX XXX XXXX" />
+      </div>
+      <div class="form-group">
+        <label for="level">Trading Experience Level</label>
+        <select id="level" required>
+          <option value="" disabled selected>Select your level</option>
+          <option>Complete Beginner</option>
+          <option>Some Knowledge — Never Traded Live</option>
+          <option>Have Traded Before</option>
+          <option>Intermediate — Want to Improve</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="interest">Markets You're Interested In</label>
+        <select id="interest">
+          <option value="" disabled selected>Select a market</option>
+          <option>Forex</option>
+          <option>Crypto</option>
+          <option>Stocks</option>
+          <option>All of the above</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="goal">Your Trading Goal</label>
+        <textarea id="goal" placeholder="e.g. I want to trade as a side income to support my studies…"></textarea>
+      </div>
+      <div class="form-submit">
+        <button type="submit" class="btn-primary">Submit Registration</button>
+        <span class="form-note">Your information is private and will never be shared.</span>
+      </div>
+    </form>
+ 
+    <div class="success-msg" id="successMsg">
+      <h3>You're Registered! 🎯</h3>
+      <p>Thank you for signing up. I'll be in touch soon with your onboarding details. Check your email!</p>
+    </div>
+  </div>
+</section>
+ 
+<!-- FOOTER -->
+<footer>
+  <div class="logo">Big Wizy Academy</div>
+  <p>© 2025 Big Wizy Academy. All rights reserved.</p>
+</footer>
+ 
+<script>
+  document.getElementById('regForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    this.style.display = 'none';
+    document.getElementById('successMsg').style.display = 'block';
+  });
+</script>
+</body>
+</html>
+ 
